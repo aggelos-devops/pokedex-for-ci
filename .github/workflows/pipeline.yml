@@ -82,7 +82,7 @@ jobs:
         with:
           cache: 'npm'
           node-version: '14'
-      - name: Install dependencies
+      - name: Instalar dependencias
         run: npm ci
       - uses: actions/download-artifact@v3
         with:
